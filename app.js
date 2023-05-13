@@ -4,7 +4,7 @@ const port = 3000
 
 app.use(express.static('public'))
 app.use('/images', express.static('images'))
-app.use('/CSS', express.static('css'))
+app.use('/CSS', express.static('CSS'))
 app.get ('/', (req,res) => {
     res.sendFile(__dirname+"/index.html")
 })
