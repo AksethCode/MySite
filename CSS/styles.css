@@ -4,6 +4,7 @@ h1 {
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    display: flex;
   }
 .img-profile{
     width: 200px;
